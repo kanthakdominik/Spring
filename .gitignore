@@ -1,0 +1,26 @@
+conference/target/classes/Application.class
+conference/target/classes/pl/dominik/model/Speaker.class
+conference/target/classes/pl/dominik/repository/HibernateSpeakerRepositoryImpl.class
+conference/target/classes/pl/dominik/repository/SpeakerRepository.class
+conference/target/classes/pl/dominik/service/SpeakerService.class
+conference/target/classes/pl/dominik/service/SpeakerServiceImpl.class
+conference/conference.iml
+conference/.idea/.gitignore
+conference/.idea/compiler.xml
+conference/.idea/jarRepositories.xml
+conference/.idea/misc.xml
+conference/.idea/vcs.xml
+conference -java/target/classes/AppConfig.class
+conference -java/target/classes/Application.class
+conference -java/target/classes/pl/dominik/model/Speaker.class
+conference -java/target/classes/pl/dominik/repository/HibernateSpeakerRepositoryImpl.class
+conference -java/target/classes/pl/dominik/repository/SpeakerRepository.class
+conference -java/target/classes/pl/dominik/service/SpeakerService.class
+conference -java/target/classes/pl/dominik/service/SpeakerServiceImpl.class
+conference -java/conference-java.iml
+conference -java/.idea/.gitignore
+conference -java/.idea/compiler.xml
+conference -java/.idea/conference -java.iml
+conference -java/.idea/jarRepositories.xml
+conference -java/.idea/misc.xml
+conference -java/.idea/vcs.xml
