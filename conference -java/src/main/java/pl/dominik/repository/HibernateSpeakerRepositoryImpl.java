@@ -1,6 +1,7 @@
 package pl.dominik.repository;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Repository;
 import pl.dominik.model.Speaker;
 
@@ -14,6 +15,9 @@ public class HibernateSpeakerRepositoryImpl implements SpeakerRepository {
     @Autowired
     private Calendar cal;
 
+    @Value("#{ T (java.lang.Math).random() * 100 }")
+    private double seedNum;
+
     @Override
     public List<Speaker> findAll(){
         List<Speaker> speakers = new ArrayList<>();
@@ -21,6 +25,7 @@ public class HibernateSpeakerRepositoryImpl implements SpeakerRepository {
         Speaker speaker = new Speaker();
         speaker.setFirstName("Dominik");
         speaker.setLastName("Kan");
+        speaker.setSeedNum(seedNum);
 
         System.out.println("cal: " + cal.getTime());
 
