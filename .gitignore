@@ -3,3 +3,4 @@ conference/.mvn/wrapper/maven-wrapper.properties
 conference/.mvn/wrapper/MavenWrapperDownloader.java
 conference/mvnw.cmd
 conference/mvnw
+conference/src/main/webapp/WEB-INF/pdf/example.pdf
