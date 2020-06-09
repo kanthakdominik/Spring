@@ -3,6 +3,7 @@ package pl.dominik.goodbyeservice;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -16,7 +17,7 @@ public class GoodbyeServiceApplication {
     }
 
     @RequestMapping
-    public String goodbye(){
-        return "goodbye";
+    public String goodbye(@RequestHeader("x-location") String location){
+        return "goodbye from " + location;
     }
 }
