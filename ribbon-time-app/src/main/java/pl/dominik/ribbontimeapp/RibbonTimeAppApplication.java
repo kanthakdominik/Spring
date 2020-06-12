@@ -9,11 +9,12 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
+import pl.dominik.config.RibbonTimeConfig;
 
 import javax.inject.Inject;
 
 @RestController
-@RibbonClient(name="time-service")
+@RibbonClient(name="time-service", configuration = RibbonTimeConfig.class)
 @SpringBootApplication
 public class RibbonTimeAppApplication {
 
