@@ -1,0 +1,11 @@
+conference/.mvn/wrapper/maven-wrapper.jar
+conference/.mvn/wrapper/maven-wrapper.properties
+conference/.mvn/wrapper/MavenWrapperDownloader.java
+conference/mvnw.cmd
+conference/mvnw
+conference/src/main/webapp/WEB-INF/pdf/example.pdf
+conference-thymeleaf/mvnw.cmd
+conference-thymeleaf/mvnw
+conference-thymeleaf/.mvn/wrapper/maven-wrapper.jar
+conference-thymeleaf/.mvn/wrapper/maven-wrapper.properties
+conference-thymeleaf/.mvn/wrapper/MavenWrapperDownloader.java
